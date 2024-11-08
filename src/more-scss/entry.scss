@@ -1,0 +1,5 @@
+@use "./my-variable";
+
+.my-element {
+    background-image: url(my-variable.$hello);
+}
